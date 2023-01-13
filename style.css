@@ -158,7 +158,7 @@ hr{
   color: #ED6B4F;
 }
 .course{
-  box-shadow: 0 4px 3px -2.9px rgba(29, 28, 28, 0.658);  padding: 10px;
+  box-shadow: 2px 2px 12px -4px rgba(29, 28, 28, 0.658);  padding: 10px;
   border-radius: 10px;
 }
 .yellow{
@@ -192,3 +192,33 @@ hr{
   text-align: center;
 }
 
+
+/* responsive section */
+
+@media only screen and (max-width: 576px)
+ {
+  .container{
+    width: 100%;
+  }
+  .menu-bar {
+    justify-content: inherit;
+    width: 100%;
+    gap: 20px;
+  }
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+  }
+  .blogs { 
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+  .course-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 15px;
+  }
+  .logo {
+    padding-left: 10px;
+  }
+}
