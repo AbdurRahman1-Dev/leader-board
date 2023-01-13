@@ -1,5 +1,49 @@
+/* common styles */
 *{
   margin: 0;
   padding: 0;
   font-family: poppins;
+}
+
+.container{
+  width: 870px;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}
+
+/* header section */
+
+header{
+  background-color: #562EFF;
+  padding: 8px 0px;
+}
+
+.menu-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img{
+  width: 45px;
+}
+
+.menu-item ul{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+ ul li{
+  list-style: none;
+ }
+li a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+.menu-item img{
+  width: 50px;
 }
