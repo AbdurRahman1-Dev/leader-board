@@ -127,3 +127,68 @@ hr{
   font-weight: 400;
   text-decoration: none;
 }
+
+/* couse section */
+
+.course-section{
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.course-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+
+.course img{
+  width: 220px;
+}
+
+.course h3{
+  font-weight: 500;
+  font-size: 20.0336px;
+  color: #1E1E1E;
+}
+.course > p{
+  font-weight: 400;
+  font-size: 14.6913px;
+  padding: 7px 0px;
+  color: #ED6B4F;
+}
+.course{
+  box-shadow: 0 4px 3px -2.9px rgba(29, 28, 28, 0.658);  padding: 10px;
+  border-radius: 10px;
+}
+.yellow{
+  color: #FFC014;
+  font-size: 12px;
+}
+
+.gray{
+  color: #AEAEAE;
+  font-size: 12px;
+}
+
+.course-info{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.course-info p{
+  color: #A2A2A2;
+}
+
+.time{
+  width: 80px;
+  height: 20px;
+  font-weight: 600;
+  font-size: 14.6913px;
+  color: #FF4A60;
+  background-color: #FFE4E8;
+  border-radius: 14.6913px;
+  padding: 5px;
+  text-align: center;
+}
+
